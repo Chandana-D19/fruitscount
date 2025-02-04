@@ -1,0 +1,48 @@
+/* Write your CSS here */
+.Container {
+  background-color: #ffd569;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.Sub-Container {
+  background-color: #ffffff;
+  height: 80%;
+  width: 90%;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+  display: flex;
+}
+.image {
+  height: 30vh;
+  width: 15vw;
+  padding-bottom: 30px;
+}
+.mango {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.image-Container {
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  flex-direction: row; 
+  gap: 90px; 
+}
+.btn {
+  cursor: pointer;
+  outline: none;
+  background-color: #007bff;
+  color: #ffffff;
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  border-width: 0px;
+}
